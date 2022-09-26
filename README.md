@@ -7,7 +7,7 @@ Construção de um jogo da forca usando html, css, e Javascript orientado pela O
 
 ## link de direcionamento do projeto
 
-link do projeto
+https://antonysf.github.io/Projeto_One_Oracle_Jogo_da_forca/index.html
 
 ## Tecnologias utilizadas
 HTML / Javascript / CSS
