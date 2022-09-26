@@ -8,8 +8,9 @@ body {
     -webkit-font-smoothing: antialiased;    
 }
 
-body {
+/* body*/
 
+body {
     min-width: 1224px;
     position:relative;
     margin: 0;
@@ -18,15 +19,15 @@ body {
     background: #ffffff;
 }
 
-
-/* Title*/
+/* logo*/
 
 .logo{
   margin-top: 2rem;  
   height: 5rem; 
-  padding-left: 31rem;
-  
+  padding-left: 31rem;  
 }
+
+/* header*/
 
 header h1::after {
     content:'';
@@ -39,13 +40,10 @@ header h1::after {
     border-radius: 10px;
 }
 
-
-
 /* Imagem */
 
 .imagem {
-    text-align: center;
-    
+    text-align: center;    
 }
 
 
@@ -67,6 +65,7 @@ header h1::after {
     border-radius: 20px;
     border: 2px solid #02111e;
 }
+
 .button-jogar, .gerar-palavra {
     background-color: #02111e;
     color: white;
@@ -88,7 +87,6 @@ header h1::after {
     transform: translateY(-2px);
 }
 
-
 .button-jogar {
     margin-right: 2px;
 }
@@ -97,8 +95,7 @@ header h1::after {
     margin-left: 2px;
 }
 
-
-
+/* footer*/
 
 footer {
     width: 100%;
@@ -108,24 +105,21 @@ footer {
     letter-spacing: 1px;    
     text-align: center;    
     padding: 60px 0;
-    margin-top: 50px;
-    
+    margin-top: 50px;    
 }
 
 .icon {
     margin: 0;    
     position: absolute;
     top: 88.3%;
-    left: 77.9%;    
-   
+    left: 77.9%;     
 }
 
 .icon2 {
     margin: 0;    
     position: absolute;
     top: 88.3%;
-    left: 80.3%;
-   
+    left: 80.3%;   
 }
 
 .copyright {
@@ -146,10 +140,7 @@ footer {
     vertical-align: middle;
     cursor: pointer;
     width: 25px;
-    height: auto;
-    
-
-    
+    height: auto;   
 }
 
 
@@ -161,8 +152,7 @@ footer {
 
 .icon:hover {
     transform: scale(1.1);
-    border-color: #c78c19;
-    
+    border-color: #c78c19;    
 }
 
 
@@ -173,8 +163,7 @@ footer {
 
 .icon2:hover {
     transform: scale(1.1);
-    border-color: #c78c19;
-    
+    border-color: #c78c19;    
 }
 
 
@@ -182,7 +171,7 @@ footer {
     border-color: #088c19;
 }
 
-
+/* Responsive*/
 
 @media screen and (max-width: 700px) {
 
