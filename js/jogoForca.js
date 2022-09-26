@@ -12,17 +12,14 @@ var margemLetras = 20;
 var dicaTxt = "";
 var colorTecla = "#020233";
 
-
 /* Arrays*/
 
 var array_letras = new Array();
 var array_palavras = new Array();
 var array_teclas = new Array();
 
-
 var erros = 0;
 var acertos = 0;
-
 
 /* Palavras para sorteio */
 
@@ -57,7 +54,6 @@ function Tecla(x, y, largura, alt, letra){
     this.desenha = desenhaTecla;
 }
 
-
 /* função que Desenha a forca mais os espaços */
  
 function Letra(x, y, largura, alt, letra){
@@ -70,7 +66,6 @@ function Letra(x, y, largura, alt, letra){
     this.desenhaLetra = desenhaLetraLetra;
 }
 
-
 function desenhaTecla(){
     txt.fillStyle = colorTecla;
     txt.strokeStyle = colorMargem;
@@ -81,7 +76,6 @@ function desenhaTecla(){
     txt.font = "bold 20px courier";
     txt.fillText(this.letra, this.x+this.largura/2-5, this.y+this.alt/2+5);
 }
-
 
 /* função que desenha a letra dentro do espaço */
 
@@ -98,7 +92,6 @@ function desenhaCampoLetra(){
     txt.fillRect(this.x, this.y, this.largura, this.alt);
     txt.strokeRect(this.x, this.y, this.largura, this.alt);
 }
-
 
 /* função onde o teclado de letras vai aparecer */
 
@@ -129,7 +122,6 @@ function teclado(){
     }
 }
 
-
 /* função desenha a palavra sorteada ao ponto que seleciona a letra no teclado */
 
 function desenhaPalavra(){
@@ -159,10 +151,8 @@ function forca(erros){
     imagem.src = "./img/forca"+erros+".png";
     imagem.onload = function(){
         txt.drawImage(imagem, 390, 0, 230, 230);
-    }
-    
+    }    
 }
-
 
 /* ajustar coordenadas*/
 function ajusta(xx, yy){
@@ -211,7 +201,6 @@ function seleciona(e){
     }
 }
 
-
 /* função gamer over para carregar um novo jogo */
 
 function gameOver(erros){
@@ -230,7 +219,6 @@ function gameOver(erros){
     txt.fillText(palavra, distanciaLetras, 380);
     forca(erros);
 }
-
 
 /* função do canvas, funções carregadas para iniciar o jogo */
 
