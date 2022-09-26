@@ -6,9 +6,10 @@ body {
     height: 100vh;
     font-family: "Poppins", 'sans-serif';
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;   
-    
+    -webkit-font-smoothing: antialiased;      
 }
+
+/* body*/
 
 body{
     width: 940px;
@@ -19,12 +20,15 @@ body{
     background-color: rgb(243, 238, 238);
 }
 
+/* logo*/
+
 .logo {
     margin-top: 2rem;  
     height: 5rem; 
-    padding-left: 18rem;
-    
-  }
+    padding-left: 18rem;    
+}
+
+/* tela*/
 
 #tela{
     border: groove 2px rgb(3, 2, 28);
@@ -41,19 +45,15 @@ body{
     border-color: #c78c19;
 }
 
+/* buttons*/
 
 #buttons {
     display:inline-block;
     flex-direction: column;
     align-items: center;
     margin-top: 2px;    
-    padding-left: 200px;
-    
+    padding-left: 200px;    
 }
-
-
-
-
 
 .button-over, .button-home {
     width: 380px;
@@ -62,10 +62,7 @@ body{
     height: 45px;
     margin-bottom: 13px;
     border-radius: 20px;
-    border: 2px solid #02111e;
-    
-    
-    
+    border: 2px solid #02111e;    
 }
 
 .button-over, .button-home {
@@ -91,17 +88,14 @@ body{
 
 
 .button-over {
-    margin-right: 2px;
-    
+    margin-right: 2px;    
 }
 
 .button-home {
     margin-left: 2px;
 }
 
-
-
-
+/* footer*/
 
 footer {
     width: 100%;
@@ -110,8 +104,7 @@ footer {
     font-size: 14px;
     letter-spacing: 1px;    
     text-align: center;    
-    padding: 60px 0;
-    
+    padding: 60px 0;    
 }
 
 .copyright {
@@ -131,17 +124,14 @@ footer {
     height: auto;
 }
 
-
 .icon{
     border: groove 2px rgb(3, 2, 28);       
     border-radius: 20px;    
 }
 
-
 .icon:hover {
     transform: scale(1.1);
-    border-color: #c78c19;
-    
+    border-color: #c78c19;    
 }
 
 
@@ -149,16 +139,7 @@ footer {
     border-color: #088c19;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* Responsive*/
 
 @media screen and (max-width: 700px) {
 
