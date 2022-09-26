@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/styleJogo.css" type="text/css">
+    <title>Jogo da forca</title>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="./img/logo1.gif" alt="forca" height="356px">
+  </header>
+
+        <!-- canvas -->
+        <canvas id="tela" height="440px"  width="980px" > 
+            
+        </canvas>
+        
+        <div id="buttons">
+          <button class="button-over" id="reset-game" type="reset" onclick="javascript:window.location.reload();">Novo Jogo</button>
+          <button class="button-home" id="voltar" onclick="location.href='./index.html'">Voltar a página home</button>
+        </div>
+
+
+        <footer>
+          <div class="copyright">
+
+            <p>&copy; Copyright Antônio dos Santos Figueiredo - 2022</p>
+            
+          </div>
+          <div class="redes">
+            <a href="https://github.com/antonysf" target="_blank" rel="noopener noreferrer"><img class="icon" src="./icon/github.svg" width="24" height="24" alt="github"></a>
+            <a href="https://www.linkedin.com/in/antonio-figueiredo-dev/" target="_blank" rel="noopener noreferrer"><img class="icon" src="./icon/linkedin.svg" width="24" height="24" alt="linkedin"></a>
+          </div>
+      </footer>
+  
+    
+    </body>
+
+    <script src="./js/jogoForca.js"></script>
+
+
+</html>

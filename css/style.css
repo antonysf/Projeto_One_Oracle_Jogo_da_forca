@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+html,
+body {
+    height: 100vh;
+    font-family: "Poppins", 'sans-serif';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;    
+}
+
+body {
+
+    min-width: 1224px;
+    position:relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+
+/* Title*/
+
+.logo{
+  margin-top: 2rem;  
+  height: 5rem; 
+  padding-left: 31rem;
+  
+}
+
+header h1::after {
+    content:'';
+    display: flex;
+    width: 30rem;
+    height: 0.3rem;
+    background-color: #02111e;
+    margin: 40px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+
+/* Imagem */
+
+.imagem {
+    text-align: center;
+    
+}
+
+
+/* buttons */
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-jogar, .gerar-palavra {
+    width: 380px;
+    padding-left: 15px;
+    font-size: 18px;
+    height: 45px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    border: 2px solid #02111e;
+}
+.button-jogar, .gerar-palavra {
+    background-color: #02111e;
+    color: white;
+    width: 250px;
+    padding-left: 0px;
+    font-size: 16px;
+    height: 40px;
+}
+
+.button-jogar:hover {
+    cursor: pointer;
+    background-color: rgba(4, 9, 26, 0.75);
+    transform: translateY(-2px);
+}
+
+.gerar-palavra:hover {
+    cursor: pointer;
+    background-color: rgba(4, 9, 26, 0.75);
+    transform: translateY(-2px);
+}
+
+
+.button-jogar {
+    margin-right: 2px;
+}
+
+.gerar-palavra {
+    margin-left: 2px;
+}
+
+
+
+
+footer {
+    width: 100%;
+    display: flex;       
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+    letter-spacing: 1px;    
+    text-align: center;    
+    padding: 60px 0;
+    margin-top: 50px;
+    
+}
+
+.icon {
+    margin: 0;    
+    position: absolute;
+    top: 88.3%;
+    left: 77.9%;    
+   
+}
+
+.icon2 {
+    margin: 0;    
+    position: absolute;
+    top: 88.3%;
+    left: 80.3%;
+   
+}
+
+.copyright {
+    margin: auto ;
+    justify-content: center;
+}
+
+.copy {
+   justify-content: center; 
+}
+
+.redes {
+    margin: auto 6px;
+    justify-content: flex-end;
+}
+
+.icon {
+    vertical-align: middle;
+    cursor: pointer;
+    width: 25px;
+    height: auto;
+    
+
+    
+}
+
+
+.icon, .icon2 {
+    border: groove 2px rgb(3, 2, 28);       
+    border-radius: 20px;    
+}
+
+
+.icon:hover {
+    transform: scale(1.1);
+    border-color: #c78c19;
+    
+}
+
+
+.icon:active {
+    border-color: #088c19;
+}
+
+
+.icon2:hover {
+    transform: scale(1.1);
+    border-color: #c78c19;
+    
+}
+
+
+.icon2:active {
+    border-color: #088c19;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    footer {
+    font-size: 10px;
+    }
+
+    .imgRedes {
+    width: 14px;
+    height: auto;
+    }
+
+}
